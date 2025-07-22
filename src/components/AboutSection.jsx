@@ -29,7 +29,7 @@ export default function AboutSection({ theme }) {
           <strong>Privacy & Security:</strong> Your text is processed entirely on your device for analysis and transformation. For translation, a secure API is used. No sensitive data is stored.
         </p>
         <p>
-          <strong>Developed by:</strong> <a href="https://toshankanwar.website" target="_blank" rel="noopener noreferrer">Toshan Kanwar</a>. For feedback, support, or collaboration, please <a href="mailto:toshankanwar@gmail.com">get in touch</a>.
+          <strong>Developed by:</strong> <a href="https://toshankanwar.website" target="_blank" rel="noopener noreferrer">Toshan Kanwar</a>. For feedback, support, or collaboration, please <a href="mailto:contact@toshankanwar.website">get in touch</a>.
         </p>
       </div>
     </section>
