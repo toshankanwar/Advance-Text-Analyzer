@@ -110,3 +110,51 @@ export function wordCount(text) {
     }
     return text.length > maxLength ? text.slice(0, maxLength) + "..." : text;
   }
+  // ...existing exports
+
+export function longestWord(text) {
+  const words = text.match(/\b\w+\b/g) || [];
+  return words.reduce((a, b) => (b.length > a.length ? b : a), "");
+}
+
+export function shortestWord(text) {
+  const words = text.match(/\b\w+\b/g) || [];
+  return words.reduce((a, b) => (b.length < a.length ? b : a), words[0] || "");
+}
+
+export function syllableCount(text) {
+  // Simple heuristic, not perfect for all languages!
+  const words = text.match(/\b\w+\b/g) || [];
+  return words.reduce((count, word) => {
+    // Count vowel groups as syllables
+    const syllables = word.toLowerCase().match(/[aeiouy]+/g);
+    return count + (syllables ? syllables.length : 1);
+  }, 0);
+}
+
+export function vowelCount(text) {
+  return (text.match(/[aeiou]/gi) || []).length;
+}
+
+export function consonantCount(text) {
+  return (text.match(/[bcdfghjklmnpqrstvwxyz]/gi) || []).length;
+}
+
+export function fleschReadingEase(text) {
+  // Flesch Reading Ease formula
+  const sentences = text.split(/[.!?\n]+/).filter(Boolean).length || 1;
+  const words = text.match(/\b\w+\b/g) || [];
+  const syllables = syllableCount(text);
+  const wordsCount = words.length || 1;
+  return Math.round(
+    206.835 - 1.015 * (wordsCount / sentences) - 84.6 * (syllables / wordsCount)
+  );
+}
+
+export function longestSentences(text, n = 3) {
+  const sentences = text.match(/[^.!?]+[.!?]+/g) || [];
+  return sentences
+    .sort((a, b) => b.length - a.length)
+    .slice(0, n)
+    .map(s => s.trim());
+}

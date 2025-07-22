@@ -116,6 +116,13 @@ export default function TextAnalyzer({ theme }) {
   const emails = analysis.extractEmails(text);
   const urls = analysis.extractURLs(text);
   const summary = analysis.summarizeText(text);
+  const longest = analysis.longestWord(text);
+const shortest = analysis.shortestWord(text);
+const syllables = analysis.syllableCount(text);
+const vowels = analysis.vowelCount(text);
+const consonants = analysis.consonantCount(text);
+const flesch = analysis.fleschReadingEase(text);
+const topSentences = analysis.longestSentences(text);
 
   // Push current text to undo stack before any change
   function pushUndo() {
@@ -411,6 +418,24 @@ export default function TextAnalyzer({ theme }) {
         <br />
         <b>URLs:</b> {urls.join(", ")}
         <br />
+        <b>Longest Word:</b> {longest}
+  <br />
+  <b>Shortest Word:</b> {shortest}
+  <br />
+  <b>Syllable Count:</b> {syllables}
+  <br />
+  <b>Vowels:</b> {vowels}
+  <br />
+  <b>Consonants:</b> {consonants}
+  <br />
+  <b>Flesch Reading Ease:</b> {flesch}
+  <br />
+  <b>Top Sentences by Length:</b>
+  <ol>
+    {topSentences.map((s, i) => (
+      <li key={i}>{s}</li>
+    ))}
+  </ol>
         <b>Summary:</b> {summary}
         <br />
       </div>
