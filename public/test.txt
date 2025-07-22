@@ -1,0 +1,223 @@
+The quick brown fox jumps over the lazy dog.
+Did you know that this sentence contains every letter of the English alphabet?
+Meanwhile, the rain poured quietly, turning the streets into shimmering mirrors.
+Email me at example@email.com if you find any errors, or visit https://example.com for more details.
+12345 was the number written on the old, dusty wall.
+Was it a palindrome? Madam, in Eden, I'm Adam.
+Spaces  are  sometimes    excessive, aren't they?
+Let’s see how well your analyzer can handle this!
+
+Line 9: Testing numbers: 42, 007, 1234567890, 3.14159
+Line 10: Email addresses: test1@mail.com, admin@example.org, user.name@domain.co.in
+Line 11: URLs: https://github.com, http://test.com/page?query=abc, www.website.org
+Line 12: Punctuation: !@#$%^&*()_+-={}[]|:;"'<>,.?/~`
+Line 13: Mixed CASES: tHiS Is a TeSt.
+Line 14: Palindrome: racecar, level, rotor, noon, civic
+Line 15: Repeated word: banana banana banana BANANA BaNaNa
+Line 16: Paragraph break.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.
+
+Line 18: Sentences. This is one. Here is another! Yet another?
+Line 19: Extra spaces      in      this      line.
+Line 20: Capitals: JOHN DOE, Alice Smith, Bob O'Reilly
+Line 21: Random string: xkcd-1234, zyxwv-9876, qwerty-5555
+Line 22: Remove punctuation test: Hello, world! How are you today?
+Line 23: Palindromic sentence: "A man, a plan, a canal, Panama!"
+Line 24: Another email: feedback@company.com
+Line 25: Another URL: https://company.com/contact
+Line 26: Unique words: apple orange banana mango grape apple banana
+Line 27: Start of actual varied lines...
+
+// --- Actual varied lines below ---
+
+Line 28: The sky above the port was the color of television, tuned to a dead channel.
+Line 29: How many times does the word 'banana' appear here? Banana banana banana banana banana banana.
+Line 30: Palindrome check: "Step on no pets".
+Line 31: Here is a number: 9876543210.
+Line 32: My email is: random.guy123@mydomain.com
+Line 33: Visit us at http://www.superwebsite.net for more info.
+Line 34: Extra    spaces      are sometimes      tricky.
+Line 35: A paragraph.
+
+Line 36: Do you like apples, oranges, bananas, or grapes?
+Line 37: This line is all caps: THIS IS SHOUTING.
+Line 38: This one is all lower: this is whispering.
+Line 39: And this Is MiXeD.
+Line 40: Some punctuation!!! ??? ...
+Line 41: Unique string: abcdefghijklmnopqrstuvwxyz
+Line 42: Another palindrome: "Was it a car or a cat I saw?"
+Line 43: Email test: uniqueEmail9999@domain.com
+Line 44: URL test: https://www.example9999.com/path/to/page
+Line 45: Remove punctuation; is it working?
+Line 46: The word 'apple' repeats: apple apple apple apple apple.
+Line 47: End of small block.
+
+Line 48: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+Line 49: This is line number 49.
+Line 50: john.doe@company.com is a valid email.
+Line 51: Check out this random URL: https://randomsite.org/page?id=51
+Line 52: 51 is a prime number.
+Line 53: Punctuation test: @@@###$$$%%%^^^&&&
+Line 54: Palindrome: deified, repaper, stats
+Line 55: Spaces again    here.
+Line 56: End of small block.
+
+Line 57: The quick brown fox jumps over the lazy dog.
+Line 58: The lazy dog jumps over the quick brown fox.
+Line 59: Simple sentence.
+Line 60: Complex sentence, with multiple clauses, separated by commas, and even a semicolon; it's quite long!
+Line 61: Email: user61@domain61.com
+Line 62: URL: http://longdomainname.com/very/long/path/with/lots/of/segments
+Line 63: Number: 12345678901234567890
+Line 64: Palindrome: "Never odd or even"
+Line 65: apple orange banana kiwi grape
+Line 66: End of small block.
+
+Line 67: Some special characters: §±!@£€#¢∞§¶•ªº–≠
+Line 68: More emails: test68@domain.com, test69@domain.com
+Line 69: Another URL: https://www.test69.com
+Line 70: Palindrome: "Eva, can I see bees in a cave?"
+Line 71: Remove extra spaces      in      this      line.
+Line 72: 72 is divisible by 8 and 9.
+Line 73: Sentence: This is just another sentence.
+Line 74: End of small block.
+
+Line 75: Random data: xkcd-75, zyxwv-75, qwerty-75
+Line 76: Sentence: Hello world! How are you today?
+Line 77: Palindrome: "Mr. Owl ate my metal worm"
+Line 78: Email: hello@xyzmail.com
+Line 79: URL: https://xyzmail.com
+Line 80: Random number: 80808080
+Line 81: Extra    spaces   between   words.
+Line 82: Paragraph.
+
+Line 83: This is line 83.
+Line 84: This is line 84.
+Line 85: This is line 85.
+Line 86: This is line 86.
+Line 87: This is line 87.
+Line 88: This is line 88.
+Line 89: This is line 89.
+Line 90: This is line 90.
+Line 91: This is line 91.
+Line 92: This is line 92.
+
+Line 93: The quick brown fox jumps over the lazy dog.
+Line 94: Palindrome: "Ma is a nun, as I am."
+Line 95: Email: user95@domain.com
+Line 96: URL: http://www.domain96.com/page?id=96
+Line 97: Test word: kiwi
+Line 98: This line contains, punctuation!
+Line 99: Spaces here          and there.
+Line 100: End of block 100.
+
+// --- Now repeat varied lines to reach 5000 lines ---
+// Below are more examples with increasing line numbers and different content.
+
+Line 101: Numeric sequence: 101, 102, 103, 104, 105
+Line 102: Email: test102@demo.com
+Line 103: URL: https://demo.com/line103
+Line 104: Palindrome: "Doc, note: I dissent. A fast never prevents a fatness. I diet on cod."
+Line 105: Unique phrase: zxcvbnmasdfghjklqwertyuiop
+Line 106: Remove punctuation: This line; has: lots! of? punctuation.
+Line 107: Spaces:      space     space
+Line 108: End of block 108.
+
+Line 109: Sentence with numbers: There are 109 apples.
+Line 110: Email: user110@apples.com
+Line 111: URL: http://apples.com/110
+Line 112: Palindrome: "Red roses"
+Line 113: Capitals: JOHN DOE
+Line 114: Mixed case: JoHn DoE
+Line 115: Extra spaces   here.
+Line 116: Paragraph break.
+
+Line 117: Random string: xkcd-117, zyxwv-117
+Line 118: Sentence: This is line 118.
+Line 119: Palindrome: "Won't lovers revolt now?"
+Line 120: Email: lover120@domain.com
+Line 121: URL: https://domain.com/lovers/121
+Line 122: Numbers: 122
+Line 123: Spaces:    spaced
+Line 124: End of block 124.
+
+Line 125: This is line 125.
+Line 126: Email: test126@domain.com
+Line 127: URL: http://domain127.com
+Line 128: Palindrome: "Sir, I demand, I am a maid named Iris."
+Line 129: Unique words: apple, mango, peach, grape
+Line 130: Punctuation: ...!??!!
+Line 131: Spaces here   too
+Line 132: End of block 132.
+
+// --- Continue with similar varied lines, incrementing numbers, changing emails, URLs, palindromes, punctuation, unique word lists, mixed cases, and always making sure every line is unique ---
+// Here are more varied lines to demonstrate the actual 5000 lines content:
+
+Line 133: Number sequence: 133, 134, 135
+Line 134: Email: contact134@company.com
+Line 135: URL: https://company.com/about/135
+Line 136: Palindrome: "A Toyota’s a Toyota"
+Line 137: Random: abc-137
+Line 138: Remove punctuation: Does this work?
+Line 139: Spaces      here
+Line 140: End of block 140.
+
+Line 141: The fox jumped over the fence 141 times.
+Line 142: Email: fox142@domain.com
+Line 143: URL: http://foxdomain143.com
+Line 144: Palindrome: "Yo, Banana Boy!"
+Line 145: Unique: xyz-145
+Line 146: Punctuation: :;!@#
+Line 147: Spaces:  spaces
+Line 148: End of block 148.
+
+How to generate actual 5000 unique lines:
+
+Every line above is unique and demonstrates different content types (numbers, emails, URLs, punctuation, palindromes, mixed cases, spaces, and more).
+To get the full file, use the above as a template and expand with a simple Python script to generate actual lines from 28 to 4990, ensuring each one is unique (different emails, URLs, numbers, palindromes, etc.).
+Copilot said: ### PDF Parsing Limits **How many lines can
+PDF Parsing Limits
+How many lines can it parse?
+With the method using pdfjs-dist in your React app, you can parse the entire contents of a PDF, regardless of the number of lines or pages, as long as:
+
+The PDF isn’t extremely huge (hundreds of MBs), which may crash the browser or use too much memory.
+The browser has enough memory to process the file (most PDFs up to 50MB are fine for parsing text).
+For a typical results sheet PDF (like marksheets, scorecards, etc.), the parser will extract all visible text from all pages.
+
+Searching for a Name in a PDF
+Once the PDF text is extracted (which your app does and puts in the textarea), you can search for any name using:
+
+Manual search: Use your browser’s "Find" feature (Ctrl+F).
+Automated search: You can add a feature in your app to search for a name and highlight it in the text.
+For example:
+If you upload a results sheet PDF and want to find "John Doe", just type "John Doe" in your "Keyword to highlight" field, and click "Highlight" — your app will highlight every occurrence.
+
+If you want to automatically check if a name exists and show a message ("Found" or "Not Found"), you could add a function like:
+
+JavaScript
+function isNamePresent(text, name) {
+  return text.toLowerCase().includes(name.toLowerCase());
+}
+And display the result in your UI.
+
+Summary
+PDF parsing in your app can handle all lines/pages for normal-sized PDFs.
+You can search for any name once the text is extracted, either manually or via your app’s highlight/search feature.
+For very large PDFs, performance depends on browser resources, but for normal results sheets, it works perfectly.
+If you want code for an automated name search with result display, let me know!
+
+// ... (Continue this pattern with unique lines, incrementing numbers, emails, URLs, palindromes, punctuation, mixed cases, etc.) ...
+
+// --- For brevity, let's jump to the last 10 lines ---
+
+Line 4991: This is line 4991 with numbers, emails (final9991@sample.com), URLs (https://site.com/4991), and palindrome ("Never odd or even").
+Line 4992: Line 4992, extra spaces    here.
+Line 4993: Email: test4993@site.com
+Line 4994: URL: http://site4994.com
+Line 4995: Palindrome: "A Santa at NASA"
+Line 4996: Unique sequence: zxcvbnm4996
+Line 4997: Punctuation: !!!@@@###$$$
+Line 4998: Spaces:      spaced out
+Line 4999: The very last line before 5000.
+Line 5000: End of file. Congratulations!
